@@ -1,0 +1,799 @@
+{
+  "Cv": [
+    {
+      "id": "1",
+      "firstName": "Kübra",
+      "LastName": "Sambur",
+      "phone_number":"0545523423324",
+      "Adress": ".... Kars",
+      "school": "Duzce University",
+      "workExperience": "Turkcell,Apple, Microsoft",
+      "cover_letter":"blabla",
+      "Github": "https://github.com/kubrasambur",
+      "image": "https://react.semantic-ui.com/images/avatar/large/molly.png"
+    },
+    {
+      "id": "2",
+      "firstName": "Berkay",
+      "LastName": "Ergün",
+      "phone_number":"0123213",
+      "Adress": ".... Bursa",
+      "school": "Duzce University",
+      "workExperience": "Vodafone,Turkcell, Turktelekom",
+      "Github": "https://github.com/Berkayergun16",
+      "cover_letter" : "blabla",
+      "image": "https://react.semantic-ui.com/images/avatar/large/steve.jpg"
+      
+    },
+    {
+      "id": "3",
+      "firstName": "Edanur",
+      "LastName": "Sambur",
+      "phone_number":"054233554",
+      "Adress": ".... Kars",
+      "school": "Duzce University",
+      "workExperience": "Biletinial , DijitalSahne",
+      "Github": "https://github.com/Berkayergun16",
+      "cover_letter" : "blabla",
+      "image": "https://react.semantic-ui.com/images/avatar/large/jenny.jpg"
+      
+    },
+    {
+      "id": "4",
+      "firstName": "Muhammed",
+      "LastName": "Şen",
+      "phone_number":"05346776212",
+      "Adress": ".... Ankara",
+      "school": "Duzce University",
+      "workExperience": "Biletinial , DijitalSahne",
+      "Github": "https://github.com/Berkayergun16",
+      "cover_letter" : "blabla",
+      "image": "https://react.semantic-ui.com/images/avatar/large/matthew.png"
+      
+      
+    },
+    {
+      "id": "5",
+      "firstName": "Figen",
+      "LastName": "Çelik",
+      "phone_number":"05346776212",
+      "Adress": ".... Düzce",
+      "school": "Duzce University",
+      "workExperience": "Biletinial , DijitalSahne",
+      "Github": "https://github.com/Berkayergun16",
+      "cover_letter" : "blabla",
+      "image": "https://react.semantic-ui.com/images/avatar/large/jenny.jpg"
+    },
+    {
+      "id": "5",
+      "firstName": "Figen",
+      "LastName": "Çelik",
+      "phone_number":"05346776212",
+      "Adress": ".... Düzce",
+      "school": "Duzce University",
+      "workExperience": "Biletinial , DijitalSahne",
+      "Github": "https://github.com/Berkayergun16",
+      "cover_letter" : "blabla",
+      "image": "https://react.semantic-ui.com/images/avatar/large/jenny.jpg"
+    }
+  ],
+
+  "Employeers": [
+    {
+      "id": "1",
+      "firstName": "Ali",
+      "lastName": "Kaya",
+      "position_id": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Ahmet",
+      "lastName": "Aktaş",
+      "position_id": "2"
+    },
+    {
+      "id": "3",
+      "firstName": "Ayşe",
+      "lastName": "Tekin",
+      "position_id": "3"
+    }
+  ],
+
+  "Users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": "Kulas Light,Apt. 556, Gwenborough",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "address": "Victor Plains,Suite 879, Wisokyburgh",
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": "Douglas Extension, Suite 847,McKenziehaven",
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": "Hoeger Mall,Apt. 692, South Elvis",
+      "phone": "493-170-9623 x156",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": "Skiles Walks, Suite 351, Roscoeview",
+      "phone": "(254)954-1289",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": "Norberto Crossing, Apt. 950, South Christy",
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": "Rex Trail, Suite 280, Howemouth",
+      "phone": "210.067.6132",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": "Ellsworth Summit, Suite 729, Aliyaview",
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": "Dayna Park, Suite 449, Bartholomebury",
+      "phone": "(775)976-6794 x41206",
+      "website": "conrad.com",
+      "company": {
+        "name": "Yost and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "address": "Kattie Turnpike, Suite 198, Lebsackbury",
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    }
+  ],
+
+  "JobSeekers": [
+    {
+      "id": "1",
+      "first_name": "Ali",
+      "last_name": "Şen"
+    },
+
+    {
+      "id": "2",
+      "first_name": "Ayşe",
+      "last_name": "Aktepe"
+    },
+
+    {
+      "id": "3",
+      "first_name": "Mehmet",
+      "last_name": "Kaya"
+    }
+  ],
+
+  "JobPosition": [
+    {
+      "id": "1",
+      "name": "Mühendis"
+    },
+
+    {
+      "id": "2",
+      "name": "Stajyer"
+    },
+
+    {
+      "id": "3",
+      "name": "Hizmetli"
+    }
+  ],
+
+  "JobAdvertisement": [
+    {
+      "id": "1",
+      "employer": "Apple",
+      "job_position": "Software Developer",
+      "city": "İstanbul",
+      "job_description": "Açıklama1",
+      "min_salary": "4000",
+      "max_salary": "5000",
+      "Work_type": "Homeoffice",
+      "email":"apple@apple.com"
+    },
+
+    {
+      "id": "2",
+      "employer": "microsoft",
+      "job_position": "Frontend Developer",
+      "city": "Ankara",
+      "job_description": "Açıklama2",
+      "min_salary": "3000",
+      "max_salary": "6000",
+      "Work_type": "office",
+      "email":"microsoft@microsoft.com"
+    },
+
+    {
+      "id": "3",
+      "employer": "Samsung",
+      "job_position": "Mobil Developer",
+      "city": "İzmir",
+      "job_description": "Açıklama3",
+      "min_salary": "7000",
+      "max_salary": "8000",
+      "Work_type": "Freelancer",
+      "email":"info@samsung.com"
+    },
+    {
+      "id":"4",
+  "employer":"KodlamaIo",
+  "job_position":"Backend Developer",
+  "city":"Ankara",
+  "job_description":"Description",
+  "min_salary":"7000",
+  "max_salary":"12000",
+  "Work_type":"Full Time" ,
+  "email":"engin@kodlama.io"
+  },
+  {
+      "id":"5",
+  "employer":"Miya Yazılım",
+  "job_position":"Software Database Support",
+  "city":"İzmir",
+  "job_description":"Description",
+  "min_salary":"4000",
+  "max_salary":"7000",
+  "Work_type":"Full Time",
+  "email":"destek@miya.com"
+  },
+  {
+      "id":"6",
+  "employer":"Biletix",
+  "job_position":"Web Developer",
+  "city":"Bursa",
+  "job_description":"Description",
+  "min_salary":"4000",
+  "max_salary":"10000",
+  "Work_type":"Full Time" ,
+  "email":"info@biletix.com"
+  },
+  {
+      "id":"7",
+  "employer":"HepsiBurada",
+  "job_position":"Frontend Developer",
+  "city":"İstanbul",
+  "job_description":"Description HepsiBurada",
+  "min_salary":"7000",
+  "max_salary":"10000",
+  "Work_type":"Part Time" ,
+  "email":"destek@hepsiburada.com"
+  },
+  {
+    "city": "Goodville", 
+    "max_salary": 13921, 
+    "employer": "MEMORA", 
+    "phone": "+1 (941) 505-2877", 
+    "job_position":"Backend Developer",
+    "job_description": "Exercitation do tempor nulla nisi exercitation eiusmod nostrud.", 
+    "id": "8", 
+    "Work_type": "Homeoffice",
+    "email": "mullenmcintyre@memora.com", 
+    "min_salary": 2538
+  }, 
+  {
+    "city": "Darrtown", 
+    "max_salary": 16753, 
+    "employer": "MOREGANIC", 
+    "phone": "+1 (961) 507-2234", 
+    "Work_type": "office",
+    "job_position":"Backend Developer",
+    "job_description": "In officia officia ex ut dolore laborum eu tempor duis est id.", 
+    "id": "9", 
+    "email": "mullenmcintyre@moreganic.com", 
+    "min_salary": 6803
+  }, 
+  {
+    "city": "Roy", 
+    "max_salary": 14690, 
+    "employer": "PERMADYNE", 
+    "phone": "+1 (921) 521-3043", 
+    "Work_type": "Full Time",
+    "job_position":"Backend Developer",
+    "job_description": "Irure eiusmod mollit Lorem culpa et reprehenderit sit excepteur quis proident eiusmod voluptate velit amet.", 
+    "id": "10", 
+    "email": "mullenmcintyre@permadyne.com", 
+    "min_salary": 9930
+  }, 
+  {
+    "city": "Germanton", 
+    "max_salary": 10826, 
+    "employer": "SHEPARD", 
+    "phone": "+1 (994) 451-3574", 
+    "Work_type": "Part Time",
+    "job_position":"Backend Developer",
+    "job_description": "Officia aliqua est est ea ad reprehenderit deserunt ad quis nulla sint mollit deserunt proident.", 
+    "id": "11", 
+    "email": "mullenmcintyre@shepard.com", 
+    "min_salary": 290
+  }, 
+  {
+    "city": "Williamson", 
+    "max_salary": 17499, 
+    "employer": "FROSNEX", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (809) 573-3661", 
+    "Work_type": "Homeoffice",
+    "job_description": "Deserunt ad dolore tempor exercitation laborum consequat sit est ullamco anim in.", 
+    "id": "12", 
+    "email": "mullenmcintyre@frosnex.com", 
+    "min_salary": 3268
+  }, 
+  {
+    "city": "Washington", 
+    "max_salary": 19943, 
+    "employer": "BOILCAT", 
+    "phone": "+1 (835) 487-2689", 
+    "Work_type": "office",
+    "job_position":"Backend Developer",
+    "job_description": "Anim reprehenderit ea velit amet irure aute.", 
+    "id": "13", 
+    "email": "mullenmcintyre@boilcat.com", 
+    "min_salary": 9701
+  }, 
+  {
+    "city": "Westerville", 
+    "max_salary": 15025, 
+    "employer": "ECSTASIA", 
+    "phone": "+1 (964) 569-3485", 
+    "Work_type": "Full Time",
+    "job_position":"Backend Developer",
+    "job_description": "Nisi aliqua do sit sit tempor et quis cupidatat voluptate aute.", 
+    "id": "14", 
+    "email": "mullenmcintyre@ecstasia.com", 
+    "min_salary": 4298
+  }, 
+  {
+    "city": "Limestone", 
+    "max_salary": 11479, 
+    "employer": "OATFARM", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (811) 402-3342", 
+    "Work_type": "Part Time",
+    "job_description": "Quis minim proident cupidatat sunt irure eiusmod aliquip Lorem incididunt reprehenderit ex ut deserunt tempor.", 
+    "id": "15", 
+    "email": "mullenmcintyre@oatfarm.com", 
+    "min_salary": 1060
+  }, 
+  {
+    "city": "Lewis", 
+    "max_salary": 10929, 
+    "employer": "ENJOLA", 
+    "phone": "+1 (888) 465-3784", 
+    "job_position":"Backend Developer",
+    "job_description": "Labore commodo sit irure ad et.", 
+    "id": "16", 
+    "Work_type": "Homeoffice",
+    "email": "mullenmcintyre@enjola.com", 
+    "min_salary": 4149
+  }, 
+  {
+    "city": "Gordon", 
+    "max_salary": 16458, 
+    "employer": "ROOFORIA", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (860) 499-3588", 
+    "Work_type": "Homeoffice",
+    "job_description": "In incididunt elit in culpa labore reprehenderit ullamco.", 
+    "id": "17", 
+    "email": "mullenmcintyre@rooforia.com", 
+    "min_salary": 9156
+  }, 
+  {
+    "city": "Blairstown", 
+    "max_salary": 13210, 
+    "employer": "PARLEYNET", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (989) 565-3590", 
+    "job_description": "Qui officia id ullamco id qui aliquip.", 
+    "id": "18", 
+    "Work_type": "Homeoffice",
+    "email": "mullenmcintyre@parleynet.com", 
+    "min_salary": 2385
+  }, 
+  {
+    "city": "Echo", 
+    "max_salary": 18882, 
+    "employer": "NIPAZ", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (807) 474-3984", 
+    "job_description": "Consequat aliquip fugiat enim laborum est ipsum exercitation.", 
+    "id": "19", 
+    "Work_type": "Full Time",
+    "email": "mullenmcintyre@nipaz.com", 
+    "min_salary": 1329
+  }, 
+  {
+    "city": "Mathews", 
+    "max_salary": 18698, 
+    "employer": "TELEQUIET", 
+    "phone": "+1 (823) 418-2516",
+    "job_position":"Backend Developer", 
+    "Work_type": "Full Time",
+    "job_description": "Aliqua Lorem mollit dolor ut nisi sunt eu aliqua.", 
+    "id": "20", 
+    "email": "mullenmcintyre@telequiet.com", 
+    "min_salary": 8938
+  }, 
+  {
+    "city": "Inkerman", 
+    "max_salary": 14671, 
+    "employer": "ENVIRE", 
+    "phone": "+1 (974) 495-2317", 
+    "Work_type": "Full Time",
+    "job_position":"Backend Developer",
+    "job_description": "Id pariatur non magna sint eiusmod aliquip laboris pariatur deserunt sunt enim laborum fugiat nisi.", 
+    "id": "21", 
+    "email": "mullenmcintyre@envire.com", 
+    "min_salary": 9043
+  }, 
+  {
+    "city": "Islandia", 
+    "max_salary": 19333, 
+    "employer": "VALREDA", 
+    "phone": "+1 (859) 448-3680", 
+    "Work_type": "Part Time",
+    "job_position":"Backend Developer",
+    "job_description": "Cupidatat dolore aute proident magna do pariatur eiusmod pariatur sit.", 
+    "id": "22", 
+    "email": "mullenmcintyre@valreda.com", 
+    "min_salary": 950
+  }, 
+  {
+    "city": "Crucible", 
+    "max_salary": 11801, 
+    "employer": "KRAG", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (829) 562-3627", 
+    "Work_type": "Part Time",
+    "job_description": "Sint minim proident nostrud adipisicing pariatur commodo occaecat non incididunt ullamco amet.", 
+    "id": "23", 
+    "email": "mullenmcintyre@krag.com", 
+    "min_salary": 3100
+  }, 
+  {
+    "city": "Trucksville", 
+    "max_salary": 11551, 
+    "employer": "PULZE", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (829) 548-2450", 
+    "Work_type": "Part Time",
+    "job_description": "Occaecat qui adipisicing sunt anim ullamco adipisicing sit excepteur ipsum exercitation laborum deserunt.", 
+    "id": "24", 
+    "email": "mullenmcintyre@pulze.com", 
+    "min_salary": 5125
+  }, 
+  {
+    "city": "Deercroft", 
+    "max_salary": 12236, 
+    "employer": "COGENTRY", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (857) 513-3388", 
+    "Work_type": "Freelancer",
+    "job_description": "Adipisicing ullamco nostrud deserunt magna in dolore magna fugiat ullamco elit tempor cupidatat.", 
+    "id": "25", 
+    "email": "mullenmcintyre@cogentry.com", 
+    "min_salary": 7845
+  }, 
+  {
+    "city": "Interlochen", 
+    "max_salary": 14232, 
+    "employer": "SYNKGEN", 
+    "job_position":"Backend Developer",
+    "Work_type": "Freelancer",
+    "phone": "+1 (894) 584-3175", 
+    "job_description": "Esse velit nisi non aute cupidatat duis ex culpa ex cupidatat sint et dolor.", 
+    "id": "26", 
+    "email": "mullenmcintyre@synkgen.com", 
+    "min_salary": 1488
+  }, 
+  {
+    "city": "Comptche", 
+    "max_salary": 10683, 
+    "employer": "EXOTECHNO", 
+    "Work_type": "Freelancer",
+    "phone": "+1 (894) 482-2079", 
+    "job_position":"Backend Developer",
+    "job_description": "Consequat incididunt nostrud Lorem irure occaecat cillum nisi qui elit.", 
+    "id": "27", 
+    "email": "mullenmcintyre@exotechno.com", 
+    "min_salary": 5691
+  }, 
+  {
+    "city": "Robinson", 
+    "max_salary": 11678, 
+    "employer": "GRUPOLI", 
+    "Work_type": "Home Office",
+    "job_position":"Backend Developer",
+    "phone": "+1 (915) 420-3978", 
+    "job_description": "Elit esse in irure adipisicing.", 
+    "id": "28", 
+    "email": "mullenmcintyre@grupoli.com", 
+    "min_salary": 4788
+  }, 
+  {
+    "city": "Kansas", 
+    "max_salary": 10228, 
+    "employer": "COMTRAIL", 
+    "job_position":"Backend Developer",
+    "Work_type": "Full Time",
+    "phone": "+1 (892) 503-2983", 
+    "job_description": "Fugiat eu veniam aute voluptate.", 
+    "id": "29", 
+    "email": "mullenmcintyre@comtrail.com", 
+    "min_salary": 2179
+  }, 
+  {
+    "city": "Morgandale", 
+    "max_salary": 11618, 
+    "employer": "GEEKOSIS", 
+    "job_position":"Backend Developer",
+    "phone": "+1 (878) 518-3253", 
+    "Work_type": "Part Time",
+    "job_description": "Voluptate Lorem sint quis et anim esse velit deserunt esse nisi amet qui nostrud consectetur.", 
+    "id": "30", 
+    "email": "mullenmcintyre@geekosis.com", 
+    "min_salary": 5146
+  }, 
+  {
+    "city": "Wanship", 
+    "max_salary": 14247, 
+    "job_position":"Backend Developer",
+    "employer": "PARAGONIA", 
+    "phone": "+1 (942) 466-3227", 
+    "Work_type": "Freelancer",
+    "job_description": "Do pariatur velit nulla ullamco.", 
+    "id": "31", 
+    "email": "mullenmcintyre@paragonia.com", 
+    "min_salary": 940
+  }, 
+  {
+    "city": "Groveville", 
+    "max_salary": 12335, 
+    "employer": "TWIGGERY", 
+    "phone": "+1 (851) 465-2915", 
+    "job_position":"Backend Developer",
+    "Work_type": "Remote",
+    "job_description": "Consequat velit fugiat in magna non ad nisi labore incididunt dolore aute.", 
+    "id": "32", 
+    "email": "mullenmcintyre@twiggery.com", 
+    "min_salary": 7606
+  }, 
+  {
+    "city": "Vicksburg", 
+    "max_salary": 15501, 
+    "employer": "EURON", 
+    "phone": "+1 (933) 548-2023", 
+    "job_position":"Backend Developer",
+    "Work_type": "Full Time",
+    "job_description": "Elit nisi amet laborum cupidatat deserunt anim occaecat anim velit consectetur.", 
+    "id": "33", 
+    "email": "mullenmcintyre@euron.com", 
+    "min_salary": 2542
+  }, 
+  {
+    "city": "Crown", 
+    "max_salary": 12051, 
+    "employer": "ZOLARITY", 
+    "phone": "+1 (801) 540-2531", 
+    "Work_type": "Part Time",
+    "job_position":"Backend Developer",
+    "job_description": "Minim ea veniam ea duis minim voluptate elit non.", 
+    "id": "34", 
+    "email": "mullenmcintyre@zolarity.com", 
+    "min_salary": 6027
+  }, 
+  {
+    "city": "Felt", 
+    "max_salary": 10576, 
+    "employer": "INSURON", 
+    "phone": "+1 (840) 471-3025", 
+    "Work_type": "Full Time",
+    "job_position":"Backend Developer",
+    "job_description": "Ea laborum aliqua aliquip aute incididunt deserunt duis ullamco id aute ut.", 
+    "id": "35", 
+    "email": "mullenmcintyre@insuron.com", 
+    "min_salary": 3364
+  }, 
+  {
+    "city": "Sims", 
+    "max_salary": 14552, 
+    "job_position":"Backend Developer",
+    "employer": "EARTHPLEX", 
+    "phone": "+1 (942) 536-2265", 
+    "Work_type": "Freelancer",
+    "job_description": "Ex est quis dolore incididunt anim sint laborum aute nostrud adipisicing veniam.", 
+    "id": "36", 
+    "email": "mullenmcintyre@earthplex.com", 
+    "min_salary": 7793
+  }
+  ],
+
+  "Employer": [
+    {
+      "id": "1",
+      "company_name": "microsoft",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.microsoft.com",
+      "company_number":"05654534534",
+      "company_email" : "info@microsoft.com"
+    },
+
+    {
+      "id": "2",
+      "company_name": "apple",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.apple.com",
+      "company_number":"05654534534",
+      "company_email" : "info@apple.com"
+      
+    },
+
+    {
+      "id": "3",
+      "company_name": "oracle",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.oracle.com",
+      "company_number":"05654534534",
+      "company_email" : "info@oracle.com"
+    },
+    {
+      "id": "4",
+      "company_name": "samsung",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.samsung.com",
+      "company_number":"05654534534",
+      "company_email" : "info@samsung.com"
+    },
+    {
+      "id": "5",
+      "company_name": "Kodlamaio",
+      "company_adress": "....Ankara",
+      "company_web_adress": "www.kodlama.io",
+      "company_number":"05654534534",
+      "company_email" : "info@kodlamaio.com"
+    },
+    {
+      "id": "6",
+      "company_name": "Miya Yazılım",
+      "company_adress": "....İzmir",
+      "company_web_adress": "www.miya.com",
+      "company_number":"05654534534",
+      "company_email" : "info@miya.com"
+    },
+    {
+      "id": "7",
+      "company_name": "Biletix",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.biletix.com",
+      "company_number":"05654534534",
+      "company_email" : "info@biletix.com"
+    },
+    {
+      "id": "8",
+      "company_name": "HepsiBurada",
+      "company_adress": "....İstanbul",
+      "company_web_adress": "www.hepsiburada.com",
+      "company_number":"05654534534",
+      "company_email" : "info@hb.com"
+    }
+  ],
+
+  "JobEmployer": [
+    {
+      "id": "1",
+      "user_companyName": "microsoft",
+      "job_id": "1"
+    },
+    {
+      "id": "2",
+      "user_companyName": "Apple",
+      "job_id": "2"
+    },
+    {
+      "id": "3",
+      "user_companyName": "Samsung",
+      "job_id": "3"
+    }
+  ]
+}

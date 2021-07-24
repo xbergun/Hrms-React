@@ -1,0 +1,13 @@
+schema: "http://192.168.1.93:5001/graphql/"
+documents: 'src/**/*.graphql'
+generates:
+  ./src/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+    config:
+      reactApolloVersion: 3
+      withHOC: false
+      withComponent: false
+      withHooks: true

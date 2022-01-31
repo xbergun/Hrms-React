@@ -10,9 +10,9 @@ export default function SignOut({SignIn}) {
             </Menu.Item> */}
    <Menu.Item >
     <Button.Group color="white">
-    <Button  color="red" onClick={SignIn}>Giriş Yap</Button>
+    <Button  color="white" onClick={SignIn}>Giriş Yap</Button>
     <Button.Or />
-    <Button color="red"  as={NavLink} to="/login">Kayıt Ol</Button>
+    <Button color="white"  as={NavLink} to="/login">Kayıt Ol</Button>
   </Button.Group>
   </Menu.Item>
         </div>

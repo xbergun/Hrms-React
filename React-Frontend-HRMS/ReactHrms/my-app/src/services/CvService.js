@@ -11,4 +11,9 @@ export default class CvService{
         return axios.get("https://localhost:44301/api/Cv/"+id)
     }
 
+    
+}
+
+export const PostCv=(value) =>{
+    return axios.post("https://localhost:44301/api/Cv/PostCv",value)
 }

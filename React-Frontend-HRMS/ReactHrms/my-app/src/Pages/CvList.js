@@ -11,26 +11,26 @@ function CvList() {
 
   const graphqlCv = useGetCvQuery();
 
-  // useEffect(() => {
-  //   let cvService = new CvService();
-  //   cvService.getCv()
-  //     .then((result) => setCv(result.data));
-  // },[]);
+   useEffect(() => {
+     let cvService = new CvService();
+     cvService.getCv()
+       .then((result) => setCv(result.data));
+   },[]);
 
-  useEffect(() => {
+  // useEffect(() => {
   
-    setCv(graphqlCv.data?.cvs)
-  }, [graphqlCv])
+  //   setCv(graphqlCv.data?.cvs)
+  // }, [graphqlCv])
 
   // if (graphqlCv.loading) {
   //   return <div>Loading...</div>
   // }
-  if (graphqlCv.error) {
-    console.log(graphqlCv.error)
-  }
-  if (graphqlCv?.data?.cvs) {
-    console.log(graphqlCv.data.cvs)
-  }
+  // if (graphqlCv.error) {
+  //   console.log(graphqlCv.error)
+  // }
+  // if (graphqlCv?.data?.cvs) {
+  //   console.log(graphqlCv.data.cvs)
+  // }
 
   const aggridbutton = (cvs) =>{
     return <Button basic color="black" as={NavLink} to={`/Cv/${cvs.value}`}>

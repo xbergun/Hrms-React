@@ -24,31 +24,8 @@ export default function UserDetail() {
         <div>
             <Grid>
         <Grid.Row>
-          <Grid.Column width={2}>
-            <List.Header centered>Authors</List.Header>
-            <List animated verticalAlign="middle">
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Berkay</List.Header>
-                </List.Content>
-              </List.Item>
-              <hr></hr>
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Kübra</List.Header>
-                </List.Content>
-              </List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={14}>
+         
+          <Grid.Column width={16}>
             detay-id: {id}
             {users.map((user) => (
               <Card.Group>
@@ -57,8 +34,8 @@ export default function UserDetail() {
                   <Card.Content key={user.id}>
                   
       
-                  <Card.Header> Name: {user.name}</Card.Header>
-                  <Card.Header> UserName: {user.username}</Card.Header>
+                  <Card.Header> İsim: {user.name}</Card.Header>
+                  <Card.Header> Soyisim: {user.username}</Card.Header>
                 </Card.Content>
 
                   <Card.Content>
@@ -66,7 +43,7 @@ export default function UserDetail() {
                        Email: {user.email}
                     </Card.Header>
                     <Card.Header>
-                       Phone: {user.phone}
+                       Telefon: {user.phone}
                     </Card.Header>
                     <Card.Header>
                   website: {user.website}
@@ -74,7 +51,7 @@ export default function UserDetail() {
                   </Card.Content>
                   <Card.Content>
                   <Card.Header>
-                      Adress:{user.Address}
+                      Adres:{user.Address}
                     </Card.Header>
                     <Card.Header>
                      {user.address.street}
@@ -88,7 +65,7 @@ export default function UserDetail() {
                   </Card.Content>
                   <Card.Content>
                   <Card.Header>
-                      Company:{user.Companyname}
+                      Şirket:{user.Companyname}
                     </Card.Header>
                     <Card.Header>
                      
@@ -103,10 +80,10 @@ export default function UserDetail() {
                   <Card.Content extra>
                     <div className="ui two buttons">
                       <Button basic color="green" onClick={application}>
-                        Application
+                        Başvur
                       </Button>
                       <Button basic color="red" onClick={decline}>
-                        Decline
+                        Reddet
                       </Button>
                     </div>
                   </Card.Content>

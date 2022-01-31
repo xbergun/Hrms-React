@@ -28,31 +28,8 @@ export default function CvDetails() {
     <div className="bg">
       <Grid>
         <Grid.Row>
-          <Grid.Column width={3}>
-            <List.Header centered>Authors</List.Header>
-            <List animated verticalAlign="middle">
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Berkay</List.Header>
-                </List.Content>
-              </List.Item>
-              <hr></hr>
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Kübra</List.Header>
-                </List.Content>
-              </List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={13}>
+      
+          <Grid.Column width={16}>
             {cvs.map((cv) => (
               <Card.Group className="tttt" key={cv.id}>
                 <Card centered fluid>
@@ -60,26 +37,26 @@ export default function CvDetails() {
                   <Card.Content>
                     
                     <Card.Header>
-                      Name: <b color="red"> {cv.firstName}</b>
+                      İsim: <b color="red"> {cv.firstName}</b>
                     </Card.Header>
-                    <Card.Header> Surname: {cv.lastName} </Card.Header>
-                    <Card.Header>Adress: {cv.EmpAddress}</Card.Header>
+                    <Card.Header> Soyisim: {cv.lastName} </Card.Header>
+                    <Card.Header>Adres: {cv.EmpAddress}</Card.Header>
                     <Card.Header>Email: {cv.email}</Card.Header>
                     <Card.Header>
-                      Work Experience: {cv.workExperience}
+                      İş Deneyimleri: {cv.workExperience}
                     </Card.Header>
                   </Card.Content>
 
                   <Card.Content>
-                    <Card.Header>Cover Letter: {cv.coverLetter}</Card.Header>
+                    <Card.Header>Önyazı: {cv.coverLetter}</Card.Header>
                   </Card.Content>
                   <Card.Content>
-                    <Card.Header>School: {cv.school}</Card.Header>
+                    <Card.Header>Okul: {cv.school}</Card.Header>
                   </Card.Content>
                   <Card.Content>
                     <Card.Header>
                       <a href={cv.github} target="blank">
-                        Github
+                        Github Profili
                       </a>
                     </Card.Header>
                   </Card.Content>
@@ -88,17 +65,17 @@ export default function CvDetails() {
                       <Grid.Row>
                         <Grid.Column width={5}>
                           <Button color="green" onClick={application}>
-                            Download For Pdf
+                            Pdf Olarak İndir
                           </Button>
                         </Grid.Column>
                         <Grid.Column width={5}>
                           <Button bac color="yellow" onClick={update}>
-                            Update
+                            Güncelle
                           </Button>
                         </Grid.Column>
                         <Grid.Column width={5}>
                           <Button bac color="blue" onClick={decline}>
-                            Wiev as Pdf
+                            Pdf Olarak Görüntüle
                           </Button>
                         </Grid.Column>
                       </Grid.Row>

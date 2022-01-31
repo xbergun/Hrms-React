@@ -19,7 +19,7 @@ function UsersLink() {
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Button as={NavLink} to="/users" color="red">
+          <Button as={NavLink} to="/users" color="purple">
             
             See Users List
           </Button>

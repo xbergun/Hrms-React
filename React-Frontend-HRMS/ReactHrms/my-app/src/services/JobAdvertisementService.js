@@ -14,6 +14,6 @@ export default class JobAdvertisementService{
 }
 
 
-export const Post=(jobAdvertisement) =>{
+export const PostAdd=(jobAdvertisement) =>{
     return axios.post("https://localhost:44301/api/JobAdvertisement/",jobAdvertisement)
 }

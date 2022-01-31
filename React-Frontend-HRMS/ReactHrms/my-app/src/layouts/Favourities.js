@@ -20,7 +20,7 @@ function Favourites() {
 
   return (
     <div className="favs">
-      <h2 className="yourf">Your Favourites</h2>
+      <h2 className="yourf">Favorileriniz</h2>
       <Grid>
       <Grid.Row>
         
@@ -29,13 +29,13 @@ function Favourites() {
             <Grid.Column width={4}>
               <Card  color='red'>
                 <Card.Content header={favItem.advert.employer} />
-                <Card.Content description={favItem.advert.job_position} />
+                <Card.Content description={favItem.advert.jobPosition} />
                 <Card.Content description={favItem.advert.city} />
                 <Card.Content extra>
-                  <Icon name="angle down" /><Button color="red" as={NavLink} to={`/JobAdverts/${favItem.advert.id}`}>See Detail</Button>
+                  <Icon name="angle down" /><Button color="purple" as={NavLink} to={`/JobAdverts/${favItem.advert.id}`}>Detayını Gör</Button>
                 </Card.Content>
                 <Card.Content extra>
-                <Button color="grey" onClick={()=>handleRemoveTheFav(favItem)}>Remove From Favourites</Button>
+                <Button color="grey" onClick={()=>handleRemoveTheFav(favItem)}>Favorilerden Sil</Button>
                 </Card.Content>
               </Card>
               <br></br>

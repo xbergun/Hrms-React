@@ -18,7 +18,7 @@ export default function JobAdvertsList() {
 
   const aggridbutton = (JobAdverts) =>{
     return <Button basic color="black" as={NavLink} to={`/JobAdverts/${JobAdverts.value}`}>
-    See Detail
+    Detayını Gör
   </Button>
   }
   return (
@@ -38,7 +38,7 @@ export default function JobAdvertsList() {
             filter={true}
           ></AgGridColumn>
           <AgGridColumn
-            field="job_position"
+            field="jobPosition"
             sortable={true}
             filter={true}
           ></AgGridColumn>

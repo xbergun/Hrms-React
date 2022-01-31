@@ -1,3 +1,6 @@
+//TÜM STATE LERİN TOPLANDIĞI YER
+//STATE LERİ TEK BİR YERDE TOPLAYIP UYGULAMAYA BURADAN EKLEYECEĞİZ
+
 import { combineReducers } from "redux";
 import favReducer from "./reducers/favReducer"
 

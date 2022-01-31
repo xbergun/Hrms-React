@@ -34,41 +34,13 @@ export default function JobAdvertsDetail() {
     toast.success(`${advert.employer}  Favorilere eklendi.`);
 
   }
-  const handleRemoveToFavourites=(advert)=>{
-    dispatch(removeFromFavourites(advert))
-
-  }
-
+  
   return (
     <div>
       <Grid>
         <Grid.Row>
-          <Grid.Column width={2}> 
-          
-          <List.Header centered>Authors</List.Header>
-            <List animated verticalAlign="middle">
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Berkay</List.Header>
-                </List.Content>
-              </List.Item>
-              <hr></hr>
-              <List.Item>
-                <Image
-                  avatar
-                  src="https://pbs.twimg.com/profile_images/1403300051749851145/XhuGb8BI_400x400.jpg"
-                />
-                <List.Content>
-                  <List.Header>Kübra</List.Header>
-                </List.Content>
-              </List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={14}>
+        
+          <Grid.Column width={16}>
             detay: {id}
             {JobAdverts.map((advert) => (
               <Card.Group className="tttt">
@@ -76,29 +48,29 @@ export default function JobAdvertsDetail() {
                   <Image centered size="medium" src="https://img.icons8.com/ios/452/company.png"></Image>
                   <Card.Content key={advert.id}>
                     <Card.Header>
-                      Employer: <b color="red"> {advert.employer}</b>
+                      İşveren: <b color="red"> {advert.employer}</b>
                     </Card.Header>
-                    <Card.Header>Position: {advert.job_position}</Card.Header>
-                    <Card.Header>City: {advert.city}</Card.Header>
-                    <Card.Header>Work Type: {advert.Work_type}</Card.Header>
+                    <Card.Header>Pozisyon: {advert.jobPosition}</Card.Header>
+                    <Card.Header>Şehir: {advert.city}</Card.Header>
+                    <Card.Header>Çalışma Tipi: {advert.workType}</Card.Header>
                   </Card.Content>
 
                   <Card.Content>
                     <Card.Header>
-                      Description: {advert.job_description}
+                      Açıklama: {advert.jobDescription}
                     </Card.Header>
                   </Card.Content>
                   <Card.Content>
-                    <Card.Header>Min Salary: {advert.min_salary}</Card.Header>
-                    <Card.Header>Max Salary: {advert.max_salary}</Card.Header>
+                    <Card.Header>Minimum Maaş: {advert.minSalary}</Card.Header>
+                    <Card.Header>Maximum Maaş: {advert.maxSalary}</Card.Header>
                   </Card.Content>
                   <Card.Content extra>
                     <div className="ui two buttons">
                       <Button basic color="blue" onClick={application}>
-                        Application
+                        Başvur
                       </Button>
                       <Button basic color="green" onClick={() => handleAddToFavourites(advert)}>
-                        Add The Favourities
+                        Favorilere Ekle
                       </Button>
                       {/* <Button basic color="red" onClick={decline}>
                         Decline
@@ -108,8 +80,8 @@ export default function JobAdvertsDetail() {
                   </Card.Content>
                   <Card.Content extra>
                     <div className="ui two buttons">
-                      <Button color="red" onClick={decline}>
-                        Go Back
+                      <Button color="purple" onClick={decline}>
+                        Geri Git
                       </Button>
                     </div>
                   </Card.Content>

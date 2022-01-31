@@ -7,8 +7,8 @@ function Login() {
   }
   return (
     <div>
-      <Segment color="red">
-        <Form color="red">
+      <Segment color="white">
+        <Form color="white">
           <Form.Group widths="equal">
             <Form.Input fluid label="First name" placeholder="First name" />
             <Form.Input fluid label="Last name" placeholder="Last name" />

@@ -137,3 +137,21 @@ input,select{
 .text-color{
   color: white;
 }
+
+.headline-1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  font-size: 470%;
+  font-style: normal;
+}
+
+.headline-2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 870%;
+  font-style: normal;
+}
+
+
+.ui-cards{
+  border: #516391 10px;
+  margin: auto;
+}

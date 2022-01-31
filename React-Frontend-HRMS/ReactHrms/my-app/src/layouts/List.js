@@ -10,7 +10,7 @@ import CvLink from "../choices/CvLink";
 function List() {
   return (
     <div className="bg">
-      <Grid columns="equal">
+      <Grid columns="equal" className="listclass">
         <Grid.Row>
           <Grid.Column>
             <CandidateLink />

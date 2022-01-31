@@ -22,7 +22,7 @@ function CvLink() {
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-            <Button as={NavLink} to="/Cv" color="red">
+            <Button as={NavLink} to="/Cv" color="purple">
              
               See Cv List
             </Button>

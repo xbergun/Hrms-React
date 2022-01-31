@@ -1,7 +1,6 @@
 import React from "react";
 import { Grid, Segment } from "semantic-ui-react";
 import { useForm } from "react-hook-form";
-import { Post } from "../../services/JobAdvertisementService";
 
 export default function JobEmployer() {
   const {
@@ -12,14 +11,13 @@ export default function JobEmployer() {
 
   const onSubmit = (data) => {
     alert(JSON.stringify(data));
-    Post(data);
   };
 
   return (
     <div>
       <br />
-      <Segment inverted color="grey">
-        <form onSubmit={handleSubmit(onSubmit)} color="grey" method="POST">
+      <Segment inverted color="purple">
+        <form onSubmit={handleSubmit(onSubmit)} color="pink" method="POST">
           <Grid>
             <Grid.Row>
               <Grid.Column width={3}>

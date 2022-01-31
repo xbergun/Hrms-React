@@ -19,7 +19,7 @@ function JobSeekersLink() {
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Button as={NavLink} to="/JobSeekers" color="red">
+          <Button as={NavLink} to="/JobSeekers" color="purple">
             See JobSeekers List
           </Button>
         </Card.Content>
